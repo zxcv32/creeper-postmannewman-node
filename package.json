@@ -3,5 +3,27 @@
     "amqplib": "^0.8.0",
     "dotenv": "^10.0.0",
     "newman": "^5.3.0"
-  }
+  },
+  "name": "creeper-postman-newman",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sea-Creeper/creeper-postman-newman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "EPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Sea-Creeper/creeper-postman-newman/issues"
+  },
+  "homepage": "https://github.com/Sea-Creeper/creeper-postman-newman#readme",
+  "description": ""
 }
