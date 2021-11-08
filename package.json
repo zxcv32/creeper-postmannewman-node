@@ -2,7 +2,8 @@
   "dependencies": {
     "amqplib": "^0.8.0",
     "dotenv": "^10.0.0",
-    "newman": "^5.3.0"
+    "newman": "^5.3.0",
+    "newman-reporter-influxdb": "^2.0.4"
   },
   "name": "creeper-postman-newman",
   "version": "0.0.1",
@@ -10,7 +11,6 @@
   "directories": {
     "test": "tests"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
