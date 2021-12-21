@@ -11,7 +11,7 @@ amqp.connect('amqp://localhost', function (error0, connection) {
       throw error1;
     }
 
-    var queue = 'creeperPostmanNewman';
+    var queue = 'creeper-postmannewman';
     var msg = JSON.stringify({
       "info": {
         "_postman_id": "2382ea41-b113-458a-9d52-d4a9fbeb25e6",
@@ -47,7 +47,7 @@ amqp.connect('amqp://localhost', function (error0, connection) {
     });
     channel.sendToQueue(queue, Buffer.from(msg));
 
-    console.log("Sent collection");
+    console.log("Sent collection to queue: '%s'", queue);
   });
   setTimeout(function () {
     connection.close();

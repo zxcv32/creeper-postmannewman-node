@@ -27,7 +27,7 @@ amqp.connect('amqp://' + mqHost, function (error0, connection) {
     if (error1) {
       throw error1;
     }
-    const queue = 'creeperPostmanNewman';
+    const queue = 'creeper-postmannewman';
 
     channel.assertQueue(queue, {
       durable: false

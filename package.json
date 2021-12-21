@@ -5,7 +5,7 @@
     "newman": "^5.3.0",
     "newman-reporter-influxdb": "^2.0.4"
   },
-  "name": "creeper-postman-newman-node-js",
+  "name": "creeper-postmannewman-node",
   "version": "0.0.1",
   "main": "index.js",
   "directories": {
