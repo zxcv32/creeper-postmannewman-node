@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "amqplib": "^0.8.0",
+    "amqplib": "^0.10.3",
     "dotenv": "^10.0.0",
     "newman": "^5.3.0",
     "newman-reporter-influxdb": "^2.0.4"
